@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Groups } from "./components/Groups";
 
 function App() {
-  return <div className="text-3xl font-bold underline">I am in tailwind</div>;
+  return <Groups></Groups>;
 }
 
 export default App;
